@@ -64,19 +64,19 @@ footer{
   }
   @font-face {
      font-family: MinecraftRegular;
-     src: url(fonts/MinecraftRegular.otf);
+     src: url(/assets/fonts/MinecraftRegular.otf);
   }
   @font-face {
      font-family: MinecraftBold;
-     src: url(fonts/MinecraftBold.otf);
+     src: url(/assets/fonts/MinecraftBold.otf);
   }
   @font-face {
      font-family: MinecraftItalic;
-     src: url(fonts/MinecraftItalic.otf);
+     src: url(/assets/fonts/MinecraftItalic.otf);
   }
   @font-face {
      font-family: MinecraftBoldItalic;
-     src: url(fonts/MinecraftBoldItalic.otf);
+     src: url(/assets/fonts/MinecraftBoldItalic.otf);
   }
   #coloredNick {
     font-size: 4rem;
