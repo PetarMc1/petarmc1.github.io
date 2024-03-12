@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../assets/css/forallpages.css"> <!--Global css file--> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>Font Generator</title>
+    
+    <meta name="theme-color" content="#9a14ff"/>
+    <meta property="og:title" content="Font Generator">
+    <meta property="og:description" content="Create texts with unique fonts for your Minecraft chat, scoreboard, tab, titles, actionbar and holograms.">
+  </head>
+  <body onload="loadCounter(); ">
+    <div class="content">
+      <div class="header">
+        <h1 style="font-family: MinecraftBold;">Font Generator</h1>
+        
+        <span id="snackbar"><b>You copied the text</span>
+        <div id="appearance" style="display: inline-block;font-family: MinecraftBold;padding: 5px 10px 5px 10px;" class="darkbuttonboxes">
+          <input type="checkbox" checked id="darkmode" onclick="toggleDarkmode();"></input>
+        </div><br><br>
+        <textarea id="inputText" style="text-align: center; display: inline-block; width: 50%;font-family: MinecraftBold;padding: 5px 5px 5px 5px;"
+          type="text" maxlength="5000" checked id="darkmode" value="petarmc1.github.com" class="darkbuttonboxes" oninput="updateOutput(this)" 
+          placeholder="Type your text">petarmc1.github.com</textarea>
+        <br>
+        <br>
+        <fieldset class="group" style="padding: 0px;"> 
+          <legend id="thelegend">&nbsp;&nbsp;&nbsp;Click a box to copy the text in it.&nbsp;&nbsp;&nbsp;</legend> 
+          <ul id="fonts-table" style="font-size: 18px;">
+            Loading..
+          </ul> 
+        </fieldset>
+      </div>
+    <script ></script>
+  </div>
+
+
+  <script src="script.js"></script>
+  
+  <script>
+    
+  </script>
+  </body>
+</html>
