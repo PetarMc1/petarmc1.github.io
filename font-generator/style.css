@@ -134,17 +134,6 @@
   .clear {
     clear: both;
   }
-  .rainbow a:visited {
-    text-decoration: underline;
-    color: inherit;
-  }
-  .rainbow a {
-    color: inherit
-  }
-  .rainbow a:hover {
-    text-decoration: underline;
-    color: inherit;
-  }
   .error {
     color: rgb(241, 76, 76);
   }
