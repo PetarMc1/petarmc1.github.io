@@ -82,10 +82,10 @@ function update() {
     for (let i = 0; i < platformArray.length; i++) {
         let platform = platformArray[i];
         if (velocityY < 0 && doodler.y < boardHeight*3/4) {
-            platform.y -= initialVelocityY; //slide platform down
+            platform.y -= initialVelocityY;
         }
         if (detectCollision(doodler, platform) && velocityY >= 0) {
-            velocityY = initialVelocityY; //jump
+            velocityY = initialVelocityY;
         }
         ctx.drawImage(platform.img, platform.x, platform.y, platform.width, platform.height);
     }
