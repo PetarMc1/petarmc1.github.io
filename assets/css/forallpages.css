@@ -44,7 +44,7 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .button {
+  .button, .back-to-homepage{
     display: inline-block;
     padding: 10px 15x;
     font-size: 15px;
