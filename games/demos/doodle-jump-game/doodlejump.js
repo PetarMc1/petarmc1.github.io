@@ -96,12 +96,12 @@ function update() {
     }
 
     updateScore();
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "red";
     ctx.font = "16px sans-serif";
     ctx.fillText(score, 5, 20);
 
     if (gameOver) {
-        ctx.fillText("Game Over: Press 'Space' to Restart", boardWidth/7, boardHeight*7/8);
+        ctx.fillText("Game Over: Press 'Space' to restart.", boardWidth/7, boardHeight*7/8);
     }
 }
 
