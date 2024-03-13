@@ -145,14 +145,6 @@
     text-decoration: underline;
     color: inherit;
   }
-  a:visited,a {
-    color: rgb(23, 142, 246);
-    text-decoration: none;
-  }
-  a:hover {
-    color: rgb(246, 246, 23);
-    text-decoration: none;
-  }
   .error {
     color: rgb(241, 76, 76);
   }
